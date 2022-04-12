@@ -34,9 +34,9 @@ Components used:
 
 ## Code
 As the project uses 3 NodeMCU platforms, each has its own code. The codes used are named as:
-• Online_PPG_DHT11.ino - code for streaming PPG waveform and DHT information (temperature and humidity)
-• Online_HR_ SpO2.ino - code for stream pulse and blood oxygen saturation
-• Local_EN.ino - code for local pulse display
+*  Online_PPG_DHT11.ino - code for streaming PPG waveform and DHT information (temperature and humidity)
+*  Online_HR_ SpO2.ino - code for stream pulse and blood oxygen saturation
+*  Local_EN.ino - code for local pulse display
 
 #### Streaming PPG waveform, temperature and humidity (Online_PPG_DHT11.ino)
 Streaming PPG waveform is done through the IoT platform Thinger.IO. The ESP8266 collects infrared data from the MAX30102 sensor using the getIR () function. This function is actually called by the C ++ lambda function of the Thinger.io platform, the return value is stored in the "out" parameter of the "pulse" field. In the main loop of the program there is a call to the handle () function and the stream () function to which the "pulse" field is forwarded.
