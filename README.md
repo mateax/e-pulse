@@ -1,25 +1,17 @@
 # e-pulse
 Development of telemedical (telehealth) system for remote monitoring of patient's pulse and oxygen levels in blood.
+
 The project is developed for a university course 'Team Project : SEL029' @ University of Split - University Department of Professional Studies
 
-## What it is?
-**opiši 
-
-## How it works?
-
-Special Mecanum wheels allow movement in all directions. For example, a prototype first searches for one laser beam, when the first laser beam is detected, then the entire assembly moves to the left. At the moment of detection of the photodiode beam, its corresponding LED lights up. In this way, the accuracy and precision of detection is ensured. 
-
-This mode of movement is not possible with normal wheels used on cars, so special Mecanum wheels are used that allow movement in all directions.
-
 ## Circuit
-According to the circuit diagram, attach resistors, photodiodes and LEDs ,and hook them up to an Arduino board.
+According to the circuit diagram, attach microcontroller, sensors, power-supply and display.
 
-**popisati komponente
 Components used: 
-* Arduino UNO
-* Photodiode OSRAM PIN SFH203
-* LED diodes
-* resistors (1kOhm, 100kOhm)
+* NodeMCU microcontroller (ESP8266 WiFi SoC microchip)
+* MAX30102 sensor
+* OLED display
+* DHT11 sensor
+* power-supply
 * wires 
 
 ## Code - How it works?
