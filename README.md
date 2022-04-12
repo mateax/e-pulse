@@ -3,7 +3,7 @@ Development of telemedical (telehealth) system for remote monitoring of patient'
 
 The project is developed for a university course 'Team Project : SEL029' @ University of Split - University Department of Professional Studies
 
-## Circuit
+### Circuit
 According to the circuit diagram, attach microcontroller, sensors, power-supply and display.
 
 Components used: 
@@ -14,7 +14,7 @@ Components used:
 * power-supply
 * wires 
 
-## Code - How it works?
+### Code - How it works?
 As the project uses 3 NodeMCU platforms, each has its own code. The codes used are named as:
 *  Online_PPG_DHT11.ino - code for streaming PPG waveform and DHT information (temperature and humidity)
 *  Online_HR_ SpO2.ino - code for stream pulse and blood oxygen saturation
